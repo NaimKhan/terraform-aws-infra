@@ -1,0 +1,26 @@
+# Local .terraform directories
+**/.terraform/*
+
+# State files (we use remote state, these should never be committed)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Terraform variable files that may contain secrets
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# OS files
+.DS_Store
